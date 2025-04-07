@@ -1,0 +1,883 @@
+{
+    "_asyncio": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.events",
+            "asyncio.futures",
+            "asyncio.tasks"
+        ],
+        "name": "_asyncio",
+        "path": "/usr/lib/python3.12/lib-dynload/_asyncio.cpython-312-x86_64-linux-gnu.so"
+    },
+    "argparse": {
+        "bacon": 1,
+        "imported_by": [
+            "curl.py"
+        ],
+        "imports": [
+            "copy",
+            "gettext",
+            "os",
+            "re",
+            "shutil",
+            "sys",
+            "textwrap",
+            "warnings"
+        ],
+        "name": "argparse",
+        "path": "/usr/lib/python3.12/argparse.py"
+    },
+    "asyncio": {
+        "bacon": 1,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.events",
+            "asyncio.format_helpers",
+            "asyncio.futures",
+            "asyncio.locks",
+            "asyncio.proactor_events",
+            "asyncio.queues",
+            "asyncio.runners",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.taskgroups",
+            "asyncio.tasks",
+            "asyncio.threads",
+            "asyncio.timeouts",
+            "asyncio.unix_events",
+            "asyncio.windows_events",
+            "curl.py"
+        ],
+        "imports": [
+            "asyncio.base_events",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.locks",
+            "asyncio.protocols",
+            "asyncio.queues",
+            "asyncio.runners",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.taskgroups",
+            "asyncio.tasks",
+            "asyncio.threads",
+            "asyncio.timeouts",
+            "asyncio.transports",
+            "asyncio.unix_events",
+            "asyncio.windows_events",
+            "sys"
+        ],
+        "name": "asyncio",
+        "path": "/usr/lib/python3.12/asyncio/__init__.py"
+    },
+    "asyncio.base_events": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.unix_events"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.tasks",
+            "asyncio.timeouts",
+            "asyncio.transports",
+            "errno",
+            "functools",
+            "os",
+            "socket",
+            "subprocess",
+            "sys",
+            "threading",
+            "time",
+            "warnings",
+            "weakref"
+        ],
+        "name": "asyncio.base_events",
+        "path": "/usr/lib/python3.12/asyncio/base_events.py"
+    },
+    "asyncio.base_subprocess": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.transports",
+            "subprocess",
+            "warnings"
+        ],
+        "name": "asyncio.base_subprocess",
+        "path": "/usr/lib/python3.12/asyncio/base_subprocess.py"
+    },
+    "asyncio.coroutines": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.runners",
+            "asyncio.streams",
+            "asyncio.tasks",
+            "asyncio.unix_events"
+        ],
+        "imports": [
+            "os",
+            "sys"
+        ],
+        "name": "asyncio.coroutines",
+        "path": "/usr/lib/python3.12/asyncio/coroutines.py"
+    },
+    "asyncio.events": {
+        "bacon": 1,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.futures",
+            "asyncio.runners",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.taskgroups",
+            "asyncio.tasks",
+            "asyncio.threads",
+            "asyncio.timeouts",
+            "asyncio.unix_events",
+            "asyncio.windows_events",
+            "curl.py"
+        ],
+        "imports": [
+            "_asyncio",
+            "asyncio",
+            "asyncio.format_helpers",
+            "contextvars",
+            "os",
+            "signal",
+            "socket",
+            "subprocess",
+            "sys",
+            "threading",
+            "warnings"
+        ],
+        "name": "asyncio.events",
+        "path": "/usr/lib/python3.12/asyncio/events.py"
+    },
+    "asyncio.exceptions": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.futures",
+            "asyncio.locks",
+            "asyncio.proactor_events",
+            "asyncio.runners",
+            "asyncio.streams",
+            "asyncio.taskgroups",
+            "asyncio.tasks",
+            "asyncio.timeouts",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "name": "asyncio.exceptions",
+        "path": "/usr/lib/python3.12/asyncio/exceptions.py"
+    },
+    "asyncio.format_helpers": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.events",
+            "asyncio.futures",
+            "asyncio.streams"
+        ],
+        "imports": [
+            "asyncio",
+            "functools",
+            "sys"
+        ],
+        "name": "asyncio.format_helpers",
+        "path": "/usr/lib/python3.12/asyncio/format_helpers.py"
+    },
+    "asyncio.futures": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.tasks",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "_asyncio",
+            "asyncio",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.format_helpers",
+            "contextvars",
+            "sys"
+        ],
+        "name": "asyncio.futures",
+        "path": "/usr/lib/python3.12/asyncio/futures.py"
+    },
+    "asyncio.locks": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.queues"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.exceptions"
+        ],
+        "name": "asyncio.locks",
+        "path": "/usr/lib/python3.12/asyncio/locks.py"
+    },
+    "asyncio.log": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "name": "asyncio.log",
+        "path": "/usr/lib/python3.12/asyncio/log.py"
+    },
+    "asyncio.proactor_events": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.transports",
+            "os",
+            "signal",
+            "socket",
+            "threading",
+            "warnings"
+        ],
+        "name": "asyncio.proactor_events",
+        "path": "/usr/lib/python3.12/asyncio/proactor_events.py"
+    },
+    "asyncio.protocols": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.subprocess"
+        ],
+        "name": "asyncio.protocols",
+        "path": "/usr/lib/python3.12/asyncio/protocols.py"
+    },
+    "asyncio.queues": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.tasks"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.locks"
+        ],
+        "name": "asyncio.queues",
+        "path": "/usr/lib/python3.12/asyncio/queues.py"
+    },
+    "asyncio.runners": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.tasks",
+            "contextvars",
+            "functools",
+            "signal",
+            "threading"
+        ],
+        "name": "asyncio.runners",
+        "path": "/usr/lib/python3.12/asyncio/runners.py"
+    },
+    "asyncio.selector_events": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.events",
+            "asyncio.futures",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.transports",
+            "errno",
+            "functools",
+            "os",
+            "socket",
+            "warnings",
+            "weakref"
+        ],
+        "name": "asyncio.selector_events",
+        "path": "/usr/lib/python3.12/asyncio/selector_events.py"
+    },
+    "asyncio.streams": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.subprocess"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.format_helpers",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.tasks",
+            "socket",
+            "sys",
+            "warnings",
+            "weakref"
+        ],
+        "name": "asyncio.streams",
+        "path": "/usr/lib/python3.12/asyncio/streams.py"
+    },
+    "asyncio.subprocess": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.events",
+            "asyncio.log",
+            "asyncio.protocols",
+            "asyncio.streams",
+            "asyncio.tasks",
+            "subprocess"
+        ],
+        "name": "asyncio.subprocess",
+        "path": "/usr/lib/python3.12/asyncio/subprocess.py"
+    },
+    "asyncio.taskgroups": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.tasks"
+        ],
+        "name": "asyncio.taskgroups",
+        "path": "/usr/lib/python3.12/asyncio/taskgroups.py"
+    },
+    "asyncio.tasks": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.runners",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.taskgroups",
+            "asyncio.timeouts",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "_asyncio",
+            "asyncio",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.queues",
+            "asyncio.timeouts",
+            "contextvars",
+            "functools",
+            "warnings",
+            "weakref"
+        ],
+        "name": "asyncio.tasks",
+        "path": "/usr/lib/python3.12/asyncio/tasks.py"
+    },
+    "asyncio.threads": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.events",
+            "contextvars",
+            "functools"
+        ],
+        "name": "asyncio.threads",
+        "path": "/usr/lib/python3.12/asyncio/threads.py"
+    },
+    "asyncio.timeouts": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.tasks"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.tasks"
+        ],
+        "name": "asyncio.timeouts",
+        "path": "/usr/lib/python3.12/asyncio/timeouts.py"
+    },
+    "asyncio.transports": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.unix_events"
+        ],
+        "name": "asyncio.transports",
+        "path": "/usr/lib/python3.12/asyncio/transports.py"
+    },
+    "asyncio.unix_events": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.log",
+            "asyncio.selector_events",
+            "asyncio.tasks",
+            "asyncio.transports",
+            "errno",
+            "os",
+            "signal",
+            "socket",
+            "subprocess",
+            "sys",
+            "threading",
+            "warnings"
+        ],
+        "name": "asyncio.unix_events",
+        "path": "/usr/lib/python3.12/asyncio/unix_events.py"
+    },
+    "asyncio.windows_events": {
+        "bacon": 1,
+        "imported_by": [
+            "asyncio",
+            "curl.py"
+        ],
+        "imports": [
+            "asyncio",
+            "asyncio.base_subprocess",
+            "asyncio.events",
+            "asyncio.exceptions",
+            "asyncio.futures",
+            "asyncio.log",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.tasks",
+            "asyncio.windows_utils",
+            "errno",
+            "functools",
+            "math",
+            "socket",
+            "struct",
+            "sys",
+            "time",
+            "weakref"
+        ],
+        "name": "asyncio.windows_events",
+        "path": "/usr/lib/python3.12/asyncio/windows_events.py"
+    },
+    "asyncio.windows_utils": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "os",
+            "subprocess",
+            "sys",
+            "warnings"
+        ],
+        "name": "asyncio.windows_utils",
+        "path": "/usr/lib/python3.12/asyncio/windows_utils.py"
+    },
+    "contextvars": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.events",
+            "asyncio.futures",
+            "asyncio.runners",
+            "asyncio.tasks",
+            "asyncio.threads"
+        ],
+        "name": "contextvars",
+        "path": "/usr/lib/python3.12/contextvars.py"
+    },
+    "copy": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse",
+            "gettext",
+            "weakref"
+        ],
+        "imports": [
+            "weakref"
+        ],
+        "name": "copy",
+        "path": "/usr/lib/python3.12/copy.py"
+    },
+    "curl.py": {
+        "bacon": 0,
+        "imports": [
+            "argparse",
+            "asyncio",
+            "asyncio.events",
+            "asyncio.windows_events",
+            "sys"
+        ],
+        "name": "curl.py",
+        "path": "curl.py"
+    },
+    "errno": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.selector_events",
+            "asyncio.unix_events",
+            "asyncio.windows_events",
+            "gettext",
+            "shutil",
+            "socket",
+            "subprocess"
+        ],
+        "name": "errno",
+        "path": null
+    },
+    "functools": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.format_helpers",
+            "asyncio.runners",
+            "asyncio.selector_events",
+            "asyncio.tasks",
+            "asyncio.threads",
+            "asyncio.windows_events",
+            "re",
+            "threading"
+        ],
+        "imports": [
+            "weakref"
+        ],
+        "name": "functools",
+        "path": "/usr/lib/python3.12/functools.py"
+    },
+    "gettext": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse"
+        ],
+        "imports": [
+            "copy",
+            "errno",
+            "os",
+            "re",
+            "struct",
+            "sys",
+            "warnings"
+        ],
+        "name": "gettext",
+        "path": "/usr/lib/python3.12/gettext.py"
+    },
+    "math": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.windows_events"
+        ],
+        "name": "math",
+        "path": null
+    },
+    "os": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse",
+            "asyncio.base_events",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.unix_events",
+            "asyncio.windows_utils",
+            "gettext",
+            "shutil",
+            "socket",
+            "subprocess",
+            "threading"
+        ],
+        "imports": [
+            "subprocess",
+            "sys",
+            "warnings"
+        ],
+        "name": "os",
+        "path": "/usr/lib/python3.12/os.py"
+    },
+    "re": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse",
+            "gettext",
+            "re",
+            "textwrap",
+            "warnings"
+        ],
+        "imports": [
+            "functools",
+            "re",
+            "warnings"
+        ],
+        "name": "re",
+        "path": "/usr/lib/python3.12/re/__init__.py"
+    },
+    "shutil": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse"
+        ],
+        "imports": [
+            "errno",
+            "os",
+            "sys",
+            "warnings"
+        ],
+        "name": "shutil",
+        "path": "/usr/lib/python3.12/shutil.py"
+    },
+    "signal": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.events",
+            "asyncio.proactor_events",
+            "asyncio.runners",
+            "asyncio.unix_events",
+            "subprocess"
+        ],
+        "name": "signal",
+        "path": "/usr/lib/python3.12/signal.py"
+    },
+    "socket": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.events",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+        ],
+        "imports": [
+            "errno",
+            "os",
+            "sys"
+        ],
+        "name": "socket",
+        "path": "/usr/lib/python3.12/socket.py"
+    },
+    "struct": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.windows_events",
+            "gettext"
+        ],
+        "name": "struct",
+        "path": "/usr/lib/python3.12/struct.py"
+    },
+    "subprocess": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.events",
+            "asyncio.subprocess",
+            "asyncio.unix_events",
+            "asyncio.windows_utils",
+            "os"
+        ],
+        "imports": [
+            "errno",
+            "os",
+            "signal",
+            "sys",
+            "threading",
+            "time",
+            "warnings"
+        ],
+        "name": "subprocess",
+        "path": "/usr/lib/python3.12/subprocess.py"
+    },
+    "sys": {
+        "bacon": 1,
+        "imported_by": [
+            "argparse",
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.coroutines",
+            "asyncio.events",
+            "asyncio.format_helpers",
+            "asyncio.futures",
+            "asyncio.streams",
+            "asyncio.unix_events",
+            "asyncio.windows_events",
+            "asyncio.windows_utils",
+            "curl.py",
+            "gettext",
+            "os",
+            "shutil",
+            "socket",
+            "subprocess",
+            "threading",
+            "warnings",
+            "weakref"
+        ],
+        "name": "sys",
+        "path": null
+    },
+    "textwrap": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse"
+        ],
+        "imports": [
+            "re"
+        ],
+        "name": "textwrap",
+        "path": "/usr/lib/python3.12/textwrap.py"
+    },
+    "threading": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.events",
+            "asyncio.proactor_events",
+            "asyncio.runners",
+            "asyncio.unix_events",
+            "subprocess"
+        ],
+        "imports": [
+            "functools",
+            "os",
+            "sys",
+            "time",
+            "warnings"
+        ],
+        "name": "threading",
+        "path": "/usr/lib/python3.12/threading.py"
+    },
+    "time": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.windows_events",
+            "subprocess",
+            "threading"
+        ],
+        "name": "time",
+        "path": null
+    },
+    "warnings": {
+        "bacon": 2,
+        "imported_by": [
+            "argparse",
+            "asyncio.base_events",
+            "asyncio.base_subprocess",
+            "asyncio.events",
+            "asyncio.proactor_events",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.tasks",
+            "asyncio.unix_events",
+            "asyncio.windows_utils",
+            "gettext",
+            "os",
+            "re",
+            "shutil",
+            "subprocess",
+            "threading"
+        ],
+        "imports": [
+            "re",
+            "sys"
+        ],
+        "name": "warnings",
+        "path": "/usr/lib/python3.12/warnings.py"
+    },
+    "weakref": {
+        "bacon": 2,
+        "imported_by": [
+            "asyncio.base_events",
+            "asyncio.selector_events",
+            "asyncio.streams",
+            "asyncio.tasks",
+            "asyncio.windows_events",
+            "copy",
+            "functools"
+        ],
+        "imports": [
+            "copy",
+            "sys"
+        ],
+        "name": "weakref",
+        "path": "/usr/lib/python3.12/weakref.py"
+    }
+}
